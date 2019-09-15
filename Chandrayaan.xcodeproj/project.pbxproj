@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		4A5CADFD232DFC8000B471C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CADFB232DFC8000B471C2 /* Main.storyboard */; };
 		4A5CADFF232DFC8300B471C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CADFE232DFC8300B471C2 /* Assets.xcassets */; };
 		4A5CAE02232DFC8300B471C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CAE00232DFC8300B471C2 /* LaunchScreen.storyboard */; };
+		4A5CAE0A232DFE9500B471C2 /* ChandrayaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CAE09232DFE9500B471C2 /* ChandrayaanViewController.swift */; };
+		4A5CAE0C232E06DB00B471C2 /* SecondChandraayanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CAE0B232E06DB00B471C2 /* SecondChandraayanViewController.swift */; };
 		89B2CEAE81D92CA2DD3248E4 /* Pods_Chandrayaan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A924F69EB0A2D0AEC67E3801 /* Pods_Chandrayaan.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		4A5CADFE232DFC8300B471C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5CAE01232DFC8300B471C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A5CAE03232DFC8300B471C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5CAE09232DFE9500B471C2 /* ChandrayaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChandrayaanViewController.swift; sourceTree = "<group>"; };
+		4A5CAE0B232E06DB00B471C2 /* SecondChandraayanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChandraayanViewController.swift; sourceTree = "<group>"; };
 		A924F69EB0A2D0AEC67E3801 /* Pods_Chandrayaan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chandrayaan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43DBF9F96358AA0EFC9ABD6 /* Pods-Chandrayaan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chandrayaan.debug.xcconfig"; path = "Target Support Files/Pods-Chandrayaan/Pods-Chandrayaan.debug.xcconfig"; sourceTree = "<group>"; };
 		CD283EB3672CA359C97223B3 /* Pods-Chandrayaan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chandrayaan.release.xcconfig"; path = "Target Support Files/Pods-Chandrayaan/Pods-Chandrayaan.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 			children = (
 				4A5CADF7232DFC8000B471C2 /* AppDelegate.swift */,
 				4A5CADF9232DFC8000B471C2 /* ViewController.swift */,
+				4A5CAE0B232E06DB00B471C2 /* SecondChandraayanViewController.swift */,
+				4A5CAE09232DFE9500B471C2 /* ChandrayaanViewController.swift */,
 				4A5CADFB232DFC8000B471C2 /* Main.storyboard */,
 				4A5CADFE232DFC8300B471C2 /* Assets.xcassets */,
 				4A5CAE00232DFC8300B471C2 /* LaunchScreen.storyboard */,
@@ -85,7 +91,6 @@
 				B43DBF9F96358AA0EFC9ABD6 /* Pods-Chandrayaan.debug.xcconfig */,
 				CD283EB3672CA359C97223B3 /* Pods-Chandrayaan.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5CAE0A232DFE9500B471C2 /* ChandrayaanViewController.swift in Sources */,
+				4A5CAE0C232E06DB00B471C2 /* SecondChandraayanViewController.swift in Sources */,
 				4A5CADFA232DFC8000B471C2 /* ViewController.swift in Sources */,
 				4A5CADF8232DFC8000B471C2 /* AppDelegate.swift in Sources */,
 			);
@@ -355,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AXLSLW23U;
 				INFOPLIST_FILE = Chandrayaan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AXLSLW23U;
 				INFOPLIST_FILE = Chandrayaan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

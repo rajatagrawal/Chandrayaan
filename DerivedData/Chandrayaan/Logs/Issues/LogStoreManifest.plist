@@ -5,7 +5,112 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>61E414CA-3C7F-4427-B8A3-3F6209614D19</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>61E414CA-3C7F-4427-B8A3-3F6209614D19.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>CocoaLumberjack-ayykbcdkptrewndzkvtuwlfpcppi</string>
+			<key>timeStartedRecording</key>
+			<real>590227740.90834296</real>
+			<key>timeStoppedRecording</key>
+			<real>590227741.05944097</real>
+			<key>title</key>
+			<string>Build target CocoaLumberjack</string>
+			<key>uniqueIdentifier</key>
+			<string>61E414CA-3C7F-4427-B8A3-3F6209614D19</string>
+		</dict>
+		<key>ACA88B58-17DE-43E6-AEA6-F517D1DC41C9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>ACA88B58-17DE-43E6-AEA6-F517D1DC41C9.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>LunarPresentationKit-ayykbcdkptrewndzkvtuwlfpcppi</string>
+			<key>timeStartedRecording</key>
+			<real>590227741.06010699</real>
+			<key>timeStoppedRecording</key>
+			<real>590227741.93347704</real>
+			<key>title</key>
+			<string>Build target LunarPresentationKit</string>
+			<key>uniqueIdentifier</key>
+			<string>ACA88B58-17DE-43E6-AEA6-F517D1DC41C9</string>
+		</dict>
+		<key>D8D924F4-192A-4B7D-9CDB-52D5EAC66009</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>D8D924F4-192A-4B7D-9CDB-52D5EAC66009.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Chandrayaan-ghbqutywreievbfnslqofljlsglt</string>
+			<key>timeStartedRecording</key>
+			<real>590227741.94204605</real>
+			<key>timeStoppedRecording</key>
+			<real>590227743.35070205</real>
+			<key>title</key>
+			<string>Build target Chandrayaan</string>
+			<key>uniqueIdentifier</key>
+			<string>D8D924F4-192A-4B7D-9CDB-52D5EAC66009</string>
+		</dict>
+		<key>FACE6177-FAF4-407B-AB91-86BA7C70EDED</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>FACE6177-FAF4-407B-AB91-86BA7C70EDED.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-Chandrayaan-ayykbcdkptrewndzkvtuwlfpcppi</string>
+			<key>timeStartedRecording</key>
+			<real>590227741.93418396</real>
+			<key>timeStoppedRecording</key>
+			<real>590227741.94151402</real>
+			<key>title</key>
+			<string>Build target Pods-Chandrayaan</string>
+			<key>uniqueIdentifier</key>
+			<string>FACE6177-FAF4-407B-AB91-86BA7C70EDED</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
